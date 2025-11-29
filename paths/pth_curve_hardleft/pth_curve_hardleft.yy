@@ -1,0 +1,19 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_curve_hardleft",
+  "closed":false,
+  "kind":1,
+  "name":"pth_curve_hardleft",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":416.0,"y":0.0,},
+    {"speed":100.0,"x":416.0,"y":256.0,},
+    {"speed":100.0,"x":160.0,"y":256.0,},
+  ],
+  "precision":5,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

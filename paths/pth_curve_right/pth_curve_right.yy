@@ -1,0 +1,19 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_curve_right",
+  "closed":false,
+  "kind":1,
+  "name":"pth_curve_right",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":224.0,"y":0.0,},
+    {"speed":100.0,"x":224.0,"y":224.0,},
+    {"speed":100.0,"x":480.0,"y":384.0,},
+  ],
+  "precision":5,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

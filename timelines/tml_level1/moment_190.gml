@@ -1,0 +1,1 @@
+_ENEMY_PATH(obj_enemytest, pth_curve_right, 5);
