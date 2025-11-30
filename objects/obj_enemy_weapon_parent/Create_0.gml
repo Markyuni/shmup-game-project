@@ -1,1 +1,1 @@
-damage = undefined;
+damage = 1;
