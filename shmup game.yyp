@@ -78,6 +78,7 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"_BULLET_CREATE","path":"scripts/_BULLET_CREATE/_BULLET_CREATE.yy",},},
+    {"id":{"name":"_ENEMY_BULLET_PATTERNS","path":"scripts/_ENEMY_BULLET_PATTERNS/_ENEMY_BULLET_PATTERNS.yy",},},
     {"id":{"name":"_SOME_FUNCTIONS","path":"scripts/_SOME_FUNCTIONS/_SOME_FUNCTIONS.yy",},},
     {"id":{"name":"Enumerators","path":"scripts/Enumerators/Enumerators.yy",},},
     {"id":{"name":"shd_flash","path":"shaders/shd_flash/shd_flash.yy",},},
@@ -102,8 +103,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

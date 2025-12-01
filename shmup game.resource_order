@@ -2,5 +2,9 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"obj_enemyhomingtest","order":1,"path":"objects/obj_enemyhomingtest/obj_enemyhomingtest.yy",},
+    {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
+    {"name":"_BULLET_CREATE","order":3,"path":"scripts/_BULLET_CREATE/_BULLET_CREATE.yy",},
+    {"name":"_ENEMY_BULLET_PATTERNS","order":2,"path":"scripts/_ENEMY_BULLET_PATTERNS/_ENEMY_BULLET_PATTERNS.yy",},
+    {"name":"Enumerators","order":1,"path":"scripts/Enumerators/Enumerators.yy",},
   ],
 }

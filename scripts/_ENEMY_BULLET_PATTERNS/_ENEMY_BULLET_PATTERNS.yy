@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_ENEMY_BULLET_PATTERNS",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_ENEMY_BULLET_PATTERNS",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
