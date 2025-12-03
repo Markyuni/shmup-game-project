@@ -1,0 +1,10 @@
+wave_time = 0
+enemy_amount = undefined;
+enemy_x = undefined;
+enemy_y = undefined;
+enemy_type = undefined;
+path_type = undefined;
+path_spd = undefined;
+path_action = undefined;
+path_absolute = undefined;
+wave_gap = undefined;

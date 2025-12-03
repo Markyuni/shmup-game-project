@@ -1,1 +1,1 @@
-_ENEMY_PATH(obj_enemytest, pth_curve_left, 5);
+_ENEMY_WAVE(x, y, obj_enemytest, 30, pth_curve_hardleft, 3, path_action_stop, true, 5);

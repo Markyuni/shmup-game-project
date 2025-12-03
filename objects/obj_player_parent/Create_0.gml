@@ -2,7 +2,7 @@ global.player_lives = 4;
 
 current_character = obj_player_red;
 
-normal_speed = 4
+normal_speed = 3
 focused_speed = 1.5;
 
 flight_speed = normal_speed;

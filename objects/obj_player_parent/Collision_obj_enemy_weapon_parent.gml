@@ -1,7 +1,7 @@
 instance_destroy();
 
-if (player_level >= 1) {
-	player_level--;
+if (obj_game.player_level >= 1) {
+	obj_game.player_level--;
 	
 }
 

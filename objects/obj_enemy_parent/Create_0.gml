@@ -1,4 +1,5 @@
 enemy_hp = undefined;
+path = noone;
 timer = undefined;
 
 hit_points = undefined;

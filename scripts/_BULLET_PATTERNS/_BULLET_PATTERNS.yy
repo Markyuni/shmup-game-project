@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_BULLET_PATTERNS",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_BULLET_PATTERNS",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

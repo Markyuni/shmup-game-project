@@ -1,0 +1,12 @@
+cooldown = 0;
+cooldown_interval = 0
+radius = 0;
+bullet_speed = 0;
+angle = 0;
+add_angle = 0;
+circle_angle = 0;
+bullet_amount = 0;
+total_bullets = 0;
+full_circle = undefined;
+loops = 0;
+loop_cooldown = 0;
