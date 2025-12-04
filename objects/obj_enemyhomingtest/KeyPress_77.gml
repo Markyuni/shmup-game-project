@@ -1,0 +1,1 @@
+_BULLET_STAR_PATTERN(50, 1, 2, 10, 10, 1);

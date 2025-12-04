@@ -1,0 +1,1 @@
+_BULLET_BARRIER_PATTERN(5, 1, 10, 30, true, -90, "Enemy_Projectiles", obj_enemy_bullet);

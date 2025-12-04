@@ -11,6 +11,8 @@
     {"name":"obj_enemyothertest","order":4,"path":"objects/obj_enemyothertest/obj_enemyothertest.yy",},
     {"name":"obj_enemytest","order":1,"path":"objects/obj_enemytest/obj_enemytest.yy",},
     {"name":"obj_homing","order":7,"path":"objects/obj_homing/obj_homing.yy",},
+    {"name":"obj_pickup_","order":12,"path":"objects/obj_pickup_/obj_pickup_.yy",},
+    {"name":"obj_pickup_parent","order":2,"path":"objects/obj_pickup_parent/obj_pickup_parent.yy",},
     {"name":"obj_player_red","order":3,"path":"objects/obj_player_red/obj_player_red.yy",},
     {"name":"obj_wall","order":6,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_waves_parent","order":1,"path":"objects/obj_waves_parent/obj_waves_parent.yy",},

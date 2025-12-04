@@ -4,6 +4,10 @@ if (enemy_hp <= 0) {
 	obj_game.points += death_points;
 	
 	effect_create_layer("Instances", ef_explosion, x, y, .5, c_white);
+    
+    if (!point_type == noone) {
+        instance_create_layer(x, y, "Instances", point_type);
+    }
 }
 
 // else, deplete some of its health and make it flash + give it a hit effect

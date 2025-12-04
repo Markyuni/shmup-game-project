@@ -56,7 +56,11 @@ function _BULLET_BARRIER_PATTERN(_bullet_amount, _speed, _radius, _spread, _homi
 
 	switch _homing {
 		case true:
-			_aim_dir = point_direction(x, y, obj_player_parent.x, obj_player_parent.y);
+            if (!instance_exists(obj_player_parent)) {
+                _aim_dir = _aim_dir;
+            } else {
+                _aim_dir = point_direction(x, y, obj_player_parent.x, obj_player_parent.y);
+            }
 		break;
 		case false:
 			_aim_dir = _aim_dir;

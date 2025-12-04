@@ -59,6 +59,8 @@
     {"id":{"name":"obj_homing","path":"objects/obj_homing/obj_homing.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
+    {"id":{"name":"obj_pickup_","path":"objects/obj_pickup_/obj_pickup_.yy",},},
+    {"id":{"name":"obj_pickup_parent","path":"objects/obj_pickup_parent/obj_pickup_parent.yy",},},
     {"id":{"name":"obj_player_parent","path":"objects/obj_player_parent/obj_player_parent.yy",},},
     {"id":{"name":"obj_player_red","path":"objects/obj_player_red/obj_player_red.yy",},},
     {"id":{"name":"obj_player_weapon_parent","path":"objects/obj_player_weapon_parent/obj_player_weapon_parent.yy",},},
@@ -108,8 +110,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
