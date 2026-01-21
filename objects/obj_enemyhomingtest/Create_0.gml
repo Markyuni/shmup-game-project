@@ -1,9 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
-enemy_hp = 20;
-
 hit_points = 5;
 death_points = 50;
 
+distance_traveled = undefined;
+
+state = noone;
 timer = 0;

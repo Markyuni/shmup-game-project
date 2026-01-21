@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_curve_quickleft_1",
+  "closed":false,
+  "kind":1,
+  "name":"pth_curve_quickleft_1",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":412.0,"y":28.0,},
+    {"speed":100.0,"x":416.5464,"y":79.71063,},
+    {"speed":100.0,"x":414.0,"y":111.0,},
+    {"speed":100.0,"x":405.0,"y":134.0,},
+    {"speed":100.0,"x":376.0,"y":143.0,},
+    {"speed":100.0,"x":308.0,"y":145.0,},
+    {"speed":100.0,"x":224.0,"y":147.0,},
+    {"speed":100.0,"x":90.0,"y":148.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -1,1 +1,6 @@
-initial_speed = -3
+vsp = -3
+y_speed = .05;
+
+points = undefined;
+
+state = "normal";

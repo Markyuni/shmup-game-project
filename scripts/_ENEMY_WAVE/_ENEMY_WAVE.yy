@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_ENEMY_WAVE",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_ENEMY_WAVE",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

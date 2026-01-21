@@ -1,4 +1,5 @@
 room_restart();
 points = 0;
 player_lives = 4;
-player_level = max_level;
+player_level = 0;
+power_meter = 0;

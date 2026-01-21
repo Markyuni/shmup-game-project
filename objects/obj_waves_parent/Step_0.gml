@@ -5,6 +5,8 @@ if (!is_undefined(enemy_type)) {
         new_enemy = instance_create_layer(enemy_x, enemy_y, "Instances", enemy_type);
         if (path_type != noone && path_spd != noone && path_action != noone && path_absolute != noone) {
             with new_enemy {
+                enemy_hp = other.enemy_health;
+                point_type = other.point_type;
                 path_start(other.path_type, other.path_spd, other.path_action, other.path_absolute);
             }
         }

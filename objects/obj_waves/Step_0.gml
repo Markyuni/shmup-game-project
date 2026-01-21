@@ -2,16 +2,16 @@
 
 switch (state)
 {
-	case STATE_WAVES.intro:
+	case "intro":
 		//@todo
 		if timer <= 0 {
-			state = STATE_WAVES.waves;	
+			state = "waves";	
 		} else {
 			timer--;
 		}
 	break;
 	
-	case STATE_WAVES.waves:
+	case "waves":
 		timeline_index = tml_level1;
 		timeline_running = true;
 		

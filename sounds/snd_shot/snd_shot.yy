@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.16108844,
+  "duration":1.2312245,
   "exportDir":"",
   "name":"snd_shot",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_shot.wav",
-  "volume":0.5,
+  "volume":0.25,
 }

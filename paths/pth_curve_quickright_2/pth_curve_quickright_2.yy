@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_curve_quickright_2",
+  "closed":false,
+  "kind":1,
+  "name":"pth_curve_quickright_2",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":212.0,"y":31.0,},
+    {"speed":100.0,"x":208.0,"y":92.0,},
+    {"speed":100.0,"x":217.0,"y":121.0,},
+    {"speed":100.0,"x":241.0,"y":130.0,},
+    {"speed":100.0,"x":300.0,"y":132.0,},
+    {"speed":100.0,"x":372.0,"y":133.0,},
+    {"speed":100.0,"x":464.0,"y":132.0,},
+    {"speed":100.0,"x":558.0,"y":133.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

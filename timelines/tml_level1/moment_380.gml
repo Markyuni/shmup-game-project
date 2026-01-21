@@ -1,7 +1,2 @@
-_ENEMY_PATH(obj_enemytest, pth_straight_leftdown, 2);
-
-_ENEMY_PATH(obj_enemytest, pth_straight_rightdown, 2);
-
-with (obj_enemytest) {
-	timer = 30;	
-}
+_ENEMY_CREATE(208, 24, "Instances", obj_enemyhomingtest, 25, obj_pickup_, 184, "initial", 2.5);
+_ENEMY_CREATE(432, 24, "Instances", obj_enemyhomingtest, 25, obj_pickup_, 184, "initial", 2.5);

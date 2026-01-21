@@ -9,8 +9,10 @@ var _yinput = _down - _up;
 move_and_collide(_xinput * flight_speed, _yinput * flight_speed, obj_wall, 4, 0, 0, flight_speed, flight_speed);
 
 if (keyboard_check(vk_shift)) {
+    state = "focused";
 	flight_speed = focused_speed;
 } else {
+    state = "normal"
 	flight_speed = normal_speed;
 }
 

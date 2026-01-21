@@ -5,7 +5,7 @@ if (enemy_hp <= 0) {
 	
 	effect_create_layer("Instances", ef_explosion, x, y, .5, c_white);
     
-    if (!point_type == noone) {
+    if (!is_undefined(point_type)) {
         instance_create_layer(x, y, "Instances", point_type);
     }
 }
