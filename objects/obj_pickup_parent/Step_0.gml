@@ -25,3 +25,7 @@ switch state {
         move_towards_point(obj_player_parent.x, obj_player_parent.y, 5);
     break;
 }
+
+if y >= 440 {
+    instance_destroy();
+}

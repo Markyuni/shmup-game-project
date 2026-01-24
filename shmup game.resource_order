@@ -4,6 +4,7 @@
     {"name":"Parents","order":10,"path":"folders/Objects/Parents.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_boss_parent","order":3,"path":"objects/obj_boss_parent/obj_boss_parent.yy",},
     {"name":"obj_bullet_effect","order":2,"path":"objects/obj_bullet_effect/obj_bullet_effect.yy",},
     {"name":"obj_bullet","order":5,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_enemy_bullet","order":8,"path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},
@@ -14,6 +15,7 @@
     {"name":"obj_pickup_","order":12,"path":"objects/obj_pickup_/obj_pickup_.yy",},
     {"name":"obj_pickup_parent","order":2,"path":"objects/obj_pickup_parent/obj_pickup_parent.yy",},
     {"name":"obj_player_red","order":3,"path":"objects/obj_player_red/obj_player_red.yy",},
+    {"name":"obj_score","order":1,"path":"objects/obj_score/obj_score.yy",},
     {"name":"obj_top","order":13,"path":"objects/obj_top/obj_top.yy",},
     {"name":"obj_wall","order":6,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_waves_parent","order":1,"path":"objects/obj_waves_parent/obj_waves_parent.yy",},
