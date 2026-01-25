@@ -47,6 +47,7 @@
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_afterimages","path":"objects/obj_afterimages/obj_afterimages.yy",},},
     {"id":{"name":"obj_boss_parent","path":"objects/obj_boss_parent/obj_boss_parent.yy",},},
+    {"id":{"name":"obj_boss1","path":"objects/obj_boss1/obj_boss1.yy",},},
     {"id":{"name":"obj_bullet_effect","path":"objects/obj_bullet_effect/obj_bullet_effect.yy",},},
     {"id":{"name":"obj_bullet_glow","path":"objects/obj_bullet_glow/obj_bullet_glow.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
@@ -113,13 +114,14 @@
     {"id":{"name":"spr_uibox","path":"sprites/spr_uibox/spr_uibox.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"tml_level1","path":"timelines/tml_level1/tml_level1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -17,7 +17,7 @@ function _ENEMY_WAVE(_enemy_x, _enemy_y, _enemy_type, _enemy_health, _point_type
 }
 
 function _ENEMY_CREATE(_enemy_x, _enemy_y, _enemy_layer, _enemy_type, _enemy_health, _point_type, _distance_traveled, _enemy_state, _enemy_speed) {
-    var inst = instance_create_layer(_enemy_x, _enemy_y, _enemy_type, _enemy_type)
+    var inst = instance_create_layer(_enemy_x, _enemy_y, _enemy_layer, _enemy_type)
     with (inst) {
         point_type = _point_type;
         distance_traveled = _distance_traveled;
