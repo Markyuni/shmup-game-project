@@ -4,7 +4,7 @@ current_character = obj_player_red;
 
 normal_speed = 3
 focused_speed = 1.5;
-state = "normal";
+is_focused = false;
 
 flight_speed = normal_speed;
 

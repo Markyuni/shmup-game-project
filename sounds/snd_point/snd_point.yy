@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_levelup",
+  "%Name":"snd_point",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.16430838,
   "exportDir":"",
-  "name":"snd_levelup",
+  "name":"snd_point",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_levelup.wav",
-  "volume":0.75,
+  "soundFile":"snd_point.wav",
+  "volume":0.5,
 }
