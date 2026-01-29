@@ -6,3 +6,5 @@ power_meter = .20;
 
 paused = false;
 leveled_up = false;
+
+is_invul = false;

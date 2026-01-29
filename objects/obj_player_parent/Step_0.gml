@@ -16,12 +16,9 @@ if (keyboard_check(vk_shift)) {
 	flight_speed = normal_speed;
 }
 
-if instance_exists(obj_afterimages) {
-	if (fade_timer <= 0) {
-		fade_timer = 5
-	
-		part_particles_create(obj_afterimages.particleSystem, x, y, obj_afterimages.particleType_Player_Fade, 1)
-	} else {
-		fade_timer--;	
-	}	
+
+if (obj_game.is_invul && ++invul_timer >= 180) {
+    is_invul = false;
+    invul_timer = 0;
 }
+

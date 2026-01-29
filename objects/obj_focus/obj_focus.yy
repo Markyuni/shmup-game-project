@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite18",
-    "path":"sprites/Sprite18/Sprite18.yy",
+    "name":"spr_focus_red",
+    "path":"sprites/spr_focus_red/spr_focus_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -44,6 +44,7 @@
     {"name":"spr_bullet_glow","order":9,"path":"sprites/spr_bullet_glow/spr_bullet_glow.yy",},
     {"name":"spr_bullet","order":10,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_enemy_test","order":2,"path":"sprites/spr_enemy_test/spr_enemy_test.yy",},
+    {"name":"spr_focus_red","order":17,"path":"sprites/spr_focus_red/spr_focus_red.yy",},
     {"name":"spr_hud_side_other","order":13,"path":"sprites/spr_hud_side_other/spr_hud_side_other.yy",},
     {"name":"spr_hud_side","order":12,"path":"sprites/spr_hud_side/spr_hud_side.yy",},
     {"name":"spr_placeholder_background","order":11,"path":"sprites/spr_placeholder_background/spr_placeholder_background.yy",},
@@ -55,6 +56,5 @@
     {"name":"spr_wall","order":6,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"Sprite15","order":14,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"Sprite17","order":16,"path":"sprites/Sprite17/Sprite17.yy",},
-    {"name":"Sprite18","order":17,"path":"sprites/Sprite18/Sprite18.yy",},
   ],
 }

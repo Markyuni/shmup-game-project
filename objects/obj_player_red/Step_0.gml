@@ -15,7 +15,7 @@ if (keyboard_check(ord("Z"))) {
     		if (bullet_timer <= 0) {
     			_BULLET_BARRIER_PATTERN(2, 15, 5, 2.5, false, 90, "Projectiles", obj_bullet);
     				
-    			bullet_timer = 6;
+    			bullet_timer = 4;
     		} else {
     			bullet_timer--	
     		}
@@ -28,7 +28,7 @@ if (keyboard_check(ord("Z"))) {
 		case 1:	// level up +1
     		if (bullet_timer <= 0) {
     			_BULLET_BARRIER_PATTERN(3, 15, 5, 5, false, 90, "Projectiles", obj_bullet);
-    			bullet_timer = 8;
+    			bullet_timer = 4;
     		} else {
     			bullet_timer--	
     		}
@@ -42,7 +42,7 @@ if (keyboard_check(ord("Z"))) {
     		if (bullet_timer <= 0) {
     			_BULLET_BARRIER_PATTERN(3, 15, 5, 5, false, 90, "Projectiles", obj_bullet);
                 
-    			bullet_timer = 8;
+    			bullet_timer = 4;
     		} else {
     			bullet_timer--	
     		}
@@ -63,7 +63,7 @@ if (keyboard_check(ord("Z"))) {
     		if (bullet_timer <= 0) {
     			_BULLET_BARRIER_PATTERN(5, 15, 5, 10, false, 90, "Projectiles", obj_bullet);
                 
-    			bullet_timer = 8;
+    			bullet_timer = 4;
     		} else {
     			bullet_timer--	
     		}
