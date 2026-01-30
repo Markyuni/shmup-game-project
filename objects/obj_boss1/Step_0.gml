@@ -19,7 +19,7 @@ switch state {
             speed = 0;
             state = "phase1_shoot";
         } else {
-            move_towards_point(216, 136, lerp(.3, dist1, .05));
+            move_towards_point(216, 136, lerp(.2, dist1, .03));
         }
     break;
 
@@ -30,7 +30,7 @@ switch state {
             speed = 0;
             state = "phase1_shoot";
         } else {
-            move_towards_point(320, 96, lerp(.3, dist2, .05));
+            move_towards_point(320, 96, lerp(.2, dist2, .03));
         }
     break;
 
@@ -41,7 +41,7 @@ switch state {
             speed = 0;
             state = "phase1_shoot";
         } else {
-            move_towards_point(424, 144, lerp(.3, dist3, .05));
+            move_towards_point(424, 144, lerp(.2, dist3, .03));
         }
     break;
 
@@ -52,14 +52,14 @@ switch state {
             speed = 0;
             state = "phase1_shoot";
         } else {
-            move_towards_point(320, 96, lerp(.3, dist4, .05));
+            move_towards_point(320, 96, lerp(.2, dist4, .03));
         }
     break;
 
     case "phase1_shoot":
         if timer == 360 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(30, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
@@ -69,7 +69,7 @@ switch state {
         
         if timer == 720 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(30, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
@@ -79,7 +79,7 @@ switch state {
         
         if timer == 1080 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(30, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
@@ -89,7 +89,7 @@ switch state {
         
         if timer == 1440 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(30, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
