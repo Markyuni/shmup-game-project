@@ -16,9 +16,7 @@ if (keyboard_check(vk_shift)) {
 	flight_speed = normal_speed;
 }
 
-
 if (obj_game.is_invul && ++invul_timer >= 180) {
-    is_invul = false;
+    obj_game.is_invul = false;
     invul_timer = 0;
 }
-

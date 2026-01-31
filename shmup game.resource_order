@@ -34,6 +34,7 @@
     {"name":"pth_curve_quickright_1","order":4,"path":"paths/pth_curve_quickright_1/pth_curve_quickright_1.yy",},
     {"name":"pth_curve_quickright_2","order":3,"path":"paths/pth_curve_quickright_2/pth_curve_quickright_2.yy",},
     {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
+    {"name":"_AFTERIMAGES","order":4,"path":"scripts/_AFTERIMAGES/_AFTERIMAGES.yy",},
     {"name":"_BULLET_CREATE","order":3,"path":"scripts/_BULLET_CREATE/_BULLET_CREATE.yy",},
     {"name":"_BULLET_PATTERNS","order":2,"path":"scripts/_BULLET_PATTERNS/_BULLET_PATTERNS.yy",},
     {"name":"Enumerators","order":1,"path":"scripts/Enumerators/Enumerators.yy",},

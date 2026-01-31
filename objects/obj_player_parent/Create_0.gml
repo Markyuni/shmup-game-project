@@ -15,3 +15,5 @@ bullet_timer = 0;
 homing_timer = 0;
 sound_timer = 0;
 invul_timer = 0;
+
+afterimages = false;

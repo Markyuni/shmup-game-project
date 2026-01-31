@@ -1,4 +1,4 @@
-with (obj_player_parent) {
+with (object_parent) {
     if instance_exists(other) {
     	if (fade_timer <= 0) {
     		fade_timer = 2;

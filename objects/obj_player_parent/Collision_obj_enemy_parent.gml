@@ -1,7 +1,7 @@
-if obj_game.is_invul = false {
-    instance_destroy();
+with (obj_game) {
+    if is_invul = false {
+        instance_destroy(other);
     
-    with (obj_game) {
         if (player_level >= 1) {
             player_level--;
         }
@@ -19,9 +19,9 @@ if obj_game.is_invul = false {
             
             instance_create_layer(320, 368, "Instances", other.current_character);
         } else {
-        	//do game over shit here	
+            //do game over shit here	
         }
+        
+        is_invul = true;
     }
-    
-    obj_game.is_invul = true;
 }
