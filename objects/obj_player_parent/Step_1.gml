@@ -3,6 +3,6 @@ if (!instance_exists(obj_focus)) {
 }
 
 if afterimages == false {
-    _AFTERIMAGES(current_character, c_white, obj_player_parent);
+    _AFTERIMAGES(current_character, c_white, obj_player_parent, 0);
     afterimages = true;
 }

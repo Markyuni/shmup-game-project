@@ -27,7 +27,7 @@ if _select
 			{
 				case 0:
 					//Start
-					room_goto(rm_game);
+					room_goto(rm_stage1);
 				break;
 				case 1:
 					//Settings

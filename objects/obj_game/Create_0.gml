@@ -1,4 +1,6 @@
 points = 0;
+current_stage = 1
+
 player_lives = 5;
 max_level = 10;
 player_level = 0;

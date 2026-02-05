@@ -1,11 +1,14 @@
 switch (state)
 {
 	case "intro":
-		//@todo
-		if timer <= 0 {
+		timer++;
+        
+		if timer == 60 {
+            instance_create_depth(x, y, -45000, obj_stage_intro);
+        }
+        
+        if timer >= 360 {
 			state = "waves";	
-		} else {
-			timer--;
 		}
 	break;
 	

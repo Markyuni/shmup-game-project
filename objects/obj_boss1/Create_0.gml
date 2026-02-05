@@ -7,3 +7,5 @@ death_points = 15000;
 current_hp = 3000;
 
 timer = 0;
+
+current_boss = obj_boss1;

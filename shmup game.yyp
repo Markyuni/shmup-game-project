@@ -30,6 +30,8 @@
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_effect_glow-1.0.0","name":"io.gamemaker.gm_effect_glow-1.0.0","path":"io.gamemaker.gm_effect_glow-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_screenshake-1.0.0","name":"io.gamemaker.gm_filter_screenshake-1.0.0","path":"io.gamemaker.gm_filter_screenshake-1.0.0.yyp",},
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"license.txt","CopyToMask":-1,"filePath":"datafiles","name":"license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -45,6 +47,7 @@
     {"id":{"name":"fnt_game_1","path":"fonts/fnt_game_1/fnt_game_1.yy",},},
     {"id":{"name":"fnt_menu_1","path":"fonts/fnt_menu_1/fnt_menu_1.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"obj_afterimages","path":"objects/obj_afterimages/obj_afterimages.yy",},},
     {"id":{"name":"obj_boss_parent","path":"objects/obj_boss_parent/obj_boss_parent.yy",},},
     {"id":{"name":"obj_boss1","path":"objects/obj_boss1/obj_boss1.yy",},},
@@ -69,6 +72,7 @@
     {"id":{"name":"obj_player_weapon_parent","path":"objects/obj_player_weapon_parent/obj_player_weapon_parent.yy",},},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
     {"id":{"name":"obj_spiral_spawn","path":"objects/obj_spiral_spawn/obj_spiral_spawn.yy",},},
+    {"id":{"name":"obj_stage_intro","path":"objects/obj_stage_intro/obj_stage_intro.yy",},},
     {"id":{"name":"obj_top","path":"objects/obj_top/obj_top.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_waves_parent","path":"objects/obj_waves_parent/obj_waves_parent.yy",},},
@@ -87,7 +91,7 @@
     {"id":{"name":"pth_straight_rightdown","path":"paths/pth_straight_rightdown/pth_straight_rightdown.yy",},},
     {"id":{"name":"pth_straight_rightup","path":"paths/pth_straight_rightup/pth_straight_rightup.yy",},},
     {"id":{"name":"pth_zigzag","path":"paths/pth_zigzag/pth_zigzag.yy",},},
-    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_stage1","path":"rooms/rm_stage1/rm_stage1.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"_AFTERIMAGES","path":"scripts/_AFTERIMAGES/_AFTERIMAGES.yy",},},
     {"id":{"name":"_BULLET_CREATE","path":"scripts/_BULLET_CREATE/_BULLET_CREATE.yy",},},
@@ -114,6 +118,7 @@
     {"id":{"name":"spr_something","path":"sprites/spr_something/spr_something.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
     {"id":{"name":"spr_top","path":"sprites/spr_top/spr_top.yy",},},
+    {"id":{"name":"spr_ui_stage1","path":"sprites/spr_ui_stage1/spr_ui_stage1.yy",},},
     {"id":{"name":"spr_uibox_shadow","path":"sprites/spr_uibox_shadow/spr_uibox_shadow.yy",},},
     {"id":{"name":"spr_uibox","path":"sprites/spr_uibox/spr_uibox.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
@@ -125,7 +130,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_stage1","path":"rooms/rm_stage1/rm_stage1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

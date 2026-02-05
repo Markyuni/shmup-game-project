@@ -25,6 +25,4 @@ if (leveled_up) {
 if keyboard_check_pressed(ord("F")) {
 	show_debug_message(display_get_gui_width());	
 	show_debug_message(display_get_gui_height());
-	show_debug_message(instance_exists(obj_waves));
-	show_debug_message(keyboard_check(ord("Z")));
 }

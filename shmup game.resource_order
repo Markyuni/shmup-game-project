@@ -4,6 +4,7 @@
     {"name":"Parents","order":10,"path":"folders/Objects/Parents.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_ui","order":1,"path":"fonts/fnt_ui/fnt_ui.yy",},
     {"name":"obj_afterimages","order":1,"path":"objects/obj_afterimages/obj_afterimages.yy",},
     {"name":"obj_boss_parent","order":6,"path":"objects/obj_boss_parent/obj_boss_parent.yy",},
     {"name":"obj_boss1","order":14,"path":"objects/obj_boss1/obj_boss1.yy",},
@@ -25,6 +26,7 @@
     {"name":"obj_player_weapon_parent","order":1,"path":"objects/obj_player_weapon_parent/obj_player_weapon_parent.yy",},
     {"name":"obj_score","order":6,"path":"objects/obj_score/obj_score.yy",},
     {"name":"obj_spiral_spawn","order":4,"path":"objects/obj_spiral_spawn/obj_spiral_spawn.yy",},
+    {"name":"obj_stage_intro","order":7,"path":"objects/obj_stage_intro/obj_stage_intro.yy",},
     {"name":"obj_top","order":13,"path":"objects/obj_top/obj_top.yy",},
     {"name":"obj_wall","order":6,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_waves_parent","order":4,"path":"objects/obj_waves_parent/obj_waves_parent.yy",},
@@ -52,6 +54,7 @@
     {"name":"spr_something","order":5,"path":"sprites/spr_something/spr_something.yy",},
     {"name":"spr_test","order":3,"path":"sprites/spr_test/spr_test.yy",},
     {"name":"spr_top","order":15,"path":"sprites/spr_top/spr_top.yy",},
+    {"name":"spr_ui_stage1","order":18,"path":"sprites/spr_ui_stage1/spr_ui_stage1.yy",},
     {"name":"spr_uibox_shadow","order":1,"path":"sprites/spr_uibox_shadow/spr_uibox_shadow.yy",},
     {"name":"spr_uibox","order":7,"path":"sprites/spr_uibox/spr_uibox.yy",},
     {"name":"spr_wall","order":6,"path":"sprites/spr_wall/spr_wall.yy",},

@@ -1,4 +1,4 @@
-timer = 300;
+timer = 0;
 timeline_over = false;
 
-state = "waves";
+state = "intro";

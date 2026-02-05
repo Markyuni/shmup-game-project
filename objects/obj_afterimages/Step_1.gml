@@ -8,4 +8,8 @@ with (object_parent) {
     		fade_timer--;	
     	}	
     }
+    
+    if !instance_exists(self) {
+        instance_destroy(other);
+    }
 }

@@ -57,9 +57,9 @@ switch state {
     break;
 
     case "phase1_shoot":
-        if timer == 360 {
+        if timer == 300 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(90, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
@@ -67,9 +67,9 @@ switch state {
             state = "phase1_move2"
         }
         
-        if timer == 720 {
+        if timer == 660 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(90, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
@@ -77,9 +77,9 @@ switch state {
             state = "phase1_move3"
         }
         
-        if timer == 1080 {
+        if timer == 1020 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(90, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
@@ -87,15 +87,15 @@ switch state {
             state = "phase1_move4"
         }
         
-        if timer == 1440 {
+        if timer == 1380 {
             for (var i = 0; i < 8; i++) {
-                _BULLET_SPIRAL_PATTERN(60, .5, 10, 5, (360/8) * i, 5, true, 2);	
+                _BULLET_SPIRAL_PATTERN(90, .5, 10, 5, (360/8) * i, 5, true, 2);	
             }
         }
         
         if timer == 1620 {
             state = "phase1_move1"
-            timer = 60;
+            timer = 180;
         }
     break;
 }
