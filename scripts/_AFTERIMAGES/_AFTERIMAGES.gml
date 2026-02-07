@@ -5,11 +5,10 @@
 /// @arg {real} _angle Set the angle for the sprite, in the case that it's not 1:1 with it.
 
 function _AFTERIMAGES(_object, _colour, _object_parent, _angle) {
-    var inst = instance_create_layer(x, y, "AfterImages", obj_afterimages);
-    with (inst) {
-        object = _object;
-        colour = _colour;
-        object_parent = _object_parent;
-        angle = _angle;
-    }
+    instance_create_layer(x, y, "AfterImages", obj_afterimages, {
+        object: _object,
+        colour: _colour,
+        object_parent: _object_parent,
+        angle: _angle
+    });
 }

@@ -9,7 +9,6 @@ is_focused = false;
 
 flight_speed = normal_speed;
 
-fade_timer = 0;
 cooldown_timer = 0;
 bullet_timer = 0;
 homing_timer = 0;

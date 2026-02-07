@@ -13,7 +13,7 @@ if (keyboard_check(ord("Z"))) {
 	switch obj_game.player_level {
 		case 0:	// base level
     		if (bullet_timer <= 0) {
-    			_BULLET_BARRIER_PATTERN(2, 15, 5, 2.5, false, 90, "Projectiles", obj_bullet);
+    			_BULLET_BARRIER_PATTERN(2, 15, 20, 2.5, false, 90, "Projectiles", obj_bullet);
     				
     			bullet_timer = 4;
     		} else {
@@ -27,7 +27,7 @@ if (keyboard_check(ord("Z"))) {
 		break;
 		case 1:	// level up +1
     		if (bullet_timer <= 0) {
-    			_BULLET_BARRIER_PATTERN(3, 15, 5, 5, false, 90, "Projectiles", obj_bullet);
+    			_BULLET_BARRIER_PATTERN(3, 15, 20, 5, false, 90, "Projectiles", obj_bullet);
     			bullet_timer = 4;
     		} else {
     			bullet_timer--	
@@ -40,7 +40,7 @@ if (keyboard_check(ord("Z"))) {
 		break;
     	case 2:	// level up +2
     		if (bullet_timer <= 0) {
-    			_BULLET_BARRIER_PATTERN(3, 15, 5, 5, false, 90, "Projectiles", obj_bullet);
+    			_BULLET_BARRIER_PATTERN(3, 15, 20, 5, false, 90, "Projectiles", obj_bullet);
                 
     			bullet_timer = 4;
     		} else {
@@ -61,7 +61,7 @@ if (keyboard_check(ord("Z"))) {
         break;
     	case 3:	// level up +3
     		if (bullet_timer <= 0) {
-    			_BULLET_BARRIER_PATTERN(5, 15, 5, 10, false, 90, "Projectiles", obj_bullet);
+    			_BULLET_BARRIER_PATTERN(5, 15, 20, 10, false, 90, "Projectiles", obj_bullet);
                 
     			bullet_timer = 4;
     		} else {

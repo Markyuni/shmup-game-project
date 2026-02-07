@@ -11,4 +11,6 @@ if (instance_exists(obj_player_parent)) {
         case false:
             image_alpha = clamp(image_alpha - transparency, 0, 1);
     }
+} else {
+    instance_destroy();
 }

@@ -23,7 +23,7 @@
   ],
   "name":"spr_bullet",
   "nineSlice":null,
-  "origin":3,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":16,
     "yorigin":1,
   },
   "swatchColours":null,

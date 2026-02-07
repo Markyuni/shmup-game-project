@@ -9,7 +9,6 @@ max_hp = current_hp;
 state = "entering";
 
 flash_alpha = 0;
-fade_timer = 0;
 
 afterimages = false;
 
