@@ -27,7 +27,17 @@ if _select
 			{
 				case 0:
 					//Start
-					room_goto(rm_stage1);
+                    if (!instance_exists(obj_trans_fade)) {
+                        //room_goto(rm_stage1);
+                        
+                        _ROOM_FADE(rm_stage1, 5, c_black);
+                        
+                        if !instance_exists(obj_game) {
+                            instance_create_layer(x, y, "Instances", obj_game);
+                        } else {
+                            instance_activate_object(obj_game);
+                        }
+                    }
 				break;
 				case 1:
 					//Settings

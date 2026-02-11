@@ -1,5 +1,6 @@
 with (obj_game) {
     if is_invul = false {
+        global.deathless_check = false;
         instance_destroy(other);
     
         if (player_level >= 1) {

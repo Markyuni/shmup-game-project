@@ -10,9 +10,9 @@ switch state {
         }
     break;
 
-    case "phase1": {
+    case "phase1":
         mask_index = Sprite17;
         
         
-    }
+    break;
 }

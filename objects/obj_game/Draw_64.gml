@@ -4,15 +4,16 @@ if (!paused) {
     
     var _score = string(round(points));
     _score = string_repeat("0", max(0, 10 - string_length(_score))) + _score;
-	
+
+    var _hi_score = string(round(global.high_score));
+    _hi_score = string_repeat("0", max(0, 10 - string_length(_hi_score))) + _hi_score;
+    
 	//draw_set_font(fnt_game_1);
 	//draw_text(_vx, _vy + 24, "LIVES: " + string(player_lives));
 	//draw_text(_vx, _vy + 48, "PLAYER LEVEL: " + string(player_level));
     //draw_text(_vx, _vy + 72, "POWER METER: " + string(power_meter));
-		
-	draw_text(x + 5, y + 5, string(obj_waves.timer));
     
-    /* SCORE START */
+    /* UI START */
     font_enable_effects(fnt_ui, true, {
         glowEnable: true,
         glowEnd: 32,
@@ -25,6 +26,9 @@ if (!paused) {
     draw_text_transformed(16 * 2, 64, "Lives: " + string(player_lives), .8, .8, 0);
     draw_text_transformed(64 * 2, 64, "Power: " + string(power_meter), .8, .8, 0);
     draw_text(96 * 2, 20, string(_score));
+    
+    draw_text(464 * 2, 20, "Hi-score:   " + string(_hi_score));
     draw_set_font(fnt_game_1);
-    /* SCORE END */
+    font_enable_effects(fnt_ui, false);
+    /* UI END */
 }

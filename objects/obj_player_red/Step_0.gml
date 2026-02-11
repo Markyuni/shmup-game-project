@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (keyboard_check(ord("Z"))) {
+if (keyboard_check(ord("Z")) && !instance_exists(obj_score_tally)) {
 			
 	if (sound_timer <= 0) {
 		audio_play_sound(snd_shot, 0, false);

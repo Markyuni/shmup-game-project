@@ -1,6 +1,6 @@
 switch state {
     case "appearing":
-        image_alpha += .08;
+        image_alpha += .02;
         
         if image_alpha >= 1 {
             state = "standby";

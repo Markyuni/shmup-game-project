@@ -27,7 +27,23 @@ switch (state)
         
         state = "boss";
     break;
-    case "boss":
+    case "end":
+        if instance_exists(obj_enemy_weapon_parent) {
+            instance_destroy(obj_enemy_weapon_parent);
+        }
         
+        if instance_exists(obj_spiral_spawn) {
+            instance_destroy(obj_spiral_spawn)
+        }
+        
+        state = "score";
+    break;
+    
+    case "score":
+        if !instance_exists(obj_weak_pickup) {
+            if !instance_exists(obj_score_tally) {
+                instance_create_layer(x, y, "SemiUI", obj_score_tally);
+            }
+        }
     break;
 }

@@ -5,6 +5,7 @@ if (current_hp <= 0) {
     
     effect_create_layer("Instances", ef_explosion, x, y, .5, c_white);
     
+    obj_waves.state = "end";
 }
 
 // else, deplete some of its health and make it flash + give it a hit effect

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Enumerators",
+  "%Name":"Script5",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Enumerators",
+  "name":"Script5",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
